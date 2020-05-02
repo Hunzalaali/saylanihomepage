@@ -1,0 +1,372 @@
+
+
+.head{
+    background-color: #4768c5;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.head2{
+    color: white;
+    font-family: sans-serif;
+}
+.head1{
+    align-items: center;
+    padding: 1%;
+    
+}
+.fa-facebook {
+    background:#4768c5;
+    color: white;
+    border-radius: 50px;
+    
+  }
+  .fa-twitter {
+    background: #4768c5;
+    color: white;
+    border-radius: 50px;
+  }
+  .fa-instagram {
+    background: #4768c5;
+    color: white;
+    border-radius: 50px;
+  }
+  .fa-youtube {
+    background: #4768c5;
+    color: white;
+    border-radius: 50px;
+  }
+  .fa-whatsapp{
+    background: hsl(224, 52%, 53%);
+    color :white;
+    }
+    
+    
+.fa {
+        padding: 0px;
+        font-size: 0px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+}
+.head3 {
+    
+    padding-top: 12px;
+    
+  }
+  button{
+    cursor: pointer;
+    background-color:rgb(250, 245, 245);
+  }
+ 
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .menu{
+
+      display: flex;
+      flex-direction: row ;
+      justify-content: space-around;
+      padding: 1%;
+      /* position: fixed;
+      background-color: white; */
+      background-color: whitesmoke;
+      flex-wrap: wrap;
+      
+
+      
+      
+      
+
+
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .mbtn{
+    
+      
+      
+  }
+  .dbtn{
+    position: relative;
+  display: inline-block;
+  }
+  
+  .bt{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    
+    
+  }
+
+  .dropbtn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #4768c5;}
+
+.dbtn:hover .dropdown-content {display: block;}
+
+.dbtn:hover .dropbtn {background-color:  #4768c5;}
+
+
+  .bt:hover{
+    background-color:  #4768c5;
+    color: white;
+    border: none;
+
+  }
+
+  
+  .logo{
+      
+  }
+
+  .News{
+      background-color: #4768c5;
+      color: white;
+      text-align: center;
+      margin-left: 150px;
+      margin-right: 150px;
+      
+  }
+  .para{
+      
+
+  }
+  .hea{
+      text-align: center;
+      color: rgb(68, 68, 207);
+      font-size: 40px;
+      font-family: monospace
+
+
+  }
+ 
+  .hea span{
+      color: rgb(58, 153, 58);
+  }
+  .par{
+    text-align: justify;
+      color: rgb(133, 131, 131);
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+  .icon{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .stats{
+    background-color: #4768c5;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .stats span{
+    font-size: 45px;
+  }
+
+ .stats span.green{
+   color: #27c927;
+   font-size: 20px;
+
+ }
+
+ .wwd{
+   display: flex;
+   
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   
+   
+
+   
+ }
+
+.box{
+  box-shadow: 1px 1px 10px 2px rgb(209, 206, 206) ;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  cursor: pointer;
+  text-align: center;
+  background-color:rgb(255, 251, 251);
+  
+}
+body{
+  background-color: whitesmoke;
+
+}
+
+.mnu{
+  background-color: rgb(255, 251, 251);
+  display: flex;
+  
+  
+
+}
+.m{
+
+flex: 65%;
+  
+
+}
+#mh{
+  color: #4768c5;
+  margin-left: 100px;
+  margin-top: 25px;
+
+}
+
+
+.m1{
+  background-color: rgb(255, 251, 251);
+  display: flex;
+  justify-content: space-around;
+  color: #4768c5;
+  text-align: center;
+  padding: 1%;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+ margin-left: 20px;
+ margin-bottom: 100px;
+ 
+  
+}
+.u{
+  flex: 35%;
+}
+.rec{
+  padding: 1%;
+  background-color: rgb(240, 240, 240);
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 250px;
+  margin-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#uh{
+  color: #4768c5;
+  
+}
+
+#up{
+  
+  color: rgb(133, 131, 131);
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.column {
+  flex: 20%;
+  padding: 2px;
+}
+
+.info
+{
+  display: flex;
+  padding: 5%;
+  background-color: rgb(54, 54, 54);
+}
+.infobox1, .infobox2, .infobox3{
+  
+  flex: 33.3%; 
+}
+.footer{
+  color: white;
+  background-color: rgb(68, 68, 207);
+  font-size: 12px;
+  padding: 1%;
+  padding-left: 10%;
+}
+
+body {
+  
+  margin: 0px;
+  
+}
+
+.ih{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  
+
+}
+
+.infobox3 ul{
+  list-style: none;
+  line-height: 2em;
+}
+.infobox1{
+  color: rgb(165, 164, 164);
+}
+
